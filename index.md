@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Jessica1211/Jessica1211.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jessica1211/Jessica1211.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		<meta name="keywords" content="Google">
+		<meta name="author" content="Jessica">
+		<meta name="distribution" content="Taiwan">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css.css">
+	</head>
+	<body>
+		<div id=div>
+			<h1 style="color:white;background-color:#9F35FF;" align="center">Google</h1>
+			<h2 style="color:white;background-color:#9F35FF;" align="center">Jessica</h2>
+			<table border="1" align="center">
+				<tr>
+					<td><h2 align="center" style="color:white">Google</h2></td>
+					<td><h2 align="center" style="color:white">Google_Chrome</h2></td>
+					<td><h2 align="center" style="color:white">Google_Lens</h2></td>
+				</tr>
+				<tr>
+					<td><img src="google.png"></td>
+					<td><img src="Google_Chrome.jpg" style="height:150px; width:150px"></td>
+					<td><img src="Google_Lens.png" style="height:200px; width:200px"></td>
+				</tr>
+			</table>
+			<details>
+				<summary><h2 align="center" style="color:white">Web(Please click here)</h2></summary>
+				<ul style="list-style-type:circle;">
+					<li><a href="https://www.google.com.tw/"><h2 align="center" style="color:white">Google-TW</h2></a></li>
+					<li><a href="https://zh.wikipedia.org/wiki/Google"><h2 align="center" style="color:white">Google-Wikipedia</h2></a></li>
+				</ul>
+			</details>
+			<link rel="stylesheet" type="text/css" href="robots.txt">
+		</div>
+	</body>
+</html>
